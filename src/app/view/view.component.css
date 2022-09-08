@@ -1,0 +1,47 @@
+
+
+  
+
+
+  #basic {
+      position: relative;
+      
+     
+     height: 100%;
+	
+}
+
+.add-btn{
+    background: #0277bd;
+    position: relative;
+	height: 10px;
+	width: 200px;
+	border-radius: 4px;
+	
+	left: 1170px;
+	top: -25px;
+}
+
+#btn-ehome{
+    background: #0277bd;
+	height: 35px;
+	width: 200px;
+	border-radius: 4px;
+	position: relative;
+	left: -1100px;
+	top: -40px;
+}
+
+.title{
+    margin-top: -8px;
+	font-size: 40px;
+    text-align: center;
+    color: #0f0750;
+    position: relative;
+    top: 90px;
+    
+}
+
+
+
+

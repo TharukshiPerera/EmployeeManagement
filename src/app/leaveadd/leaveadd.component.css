@@ -1,0 +1,73 @@
+#basic {
+	position: relative;
+	height: 900px;
+	
+}
+#visible {
+    background-color: #d3d3d3;
+    height: 790px;
+    top: 100px;
+    border: 2px solid #bdbdbd;
+    border-radius: 4px;
+    width: 60%;
+    position: relative;
+    left: 250px;
+    padding-bottom: 40px;
+}
+
+.btn_btn-success{
+	height: 40px;
+	background: #ffffff;
+	border: 2px solid #03A9F4;
+	border-radius: 4px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #000000;
+}
+
+#reset-btn{
+	background: #ffffff;
+	border: 2px solid #03A9F4;
+	height: 40px;
+	width: 100px;
+	border-radius: 4px;
+	position: relative;
+	left: 575px;
+	top: 3px;
+	color: #000000;
+}
+
+#title1{
+	position: relative;
+	color: #0f0750;
+}
+
+/*----------*/
+
+.form {
+	position: relative;
+	top: 20px;
+	left: 105px;
+}
+form p {
+	color: red;
+	font-size: 12px;
+}
+form input {
+	font-weight: bold;
+	color: black;
+	font-size: 15px;
+	width: 600px;
+	height: 25px;
+}
+form p {
+	color: red;
+}
+form a {
+	text-decoration: none;
+}
+
+#para {
+	color: black;
+	font-size: 15px;
+}

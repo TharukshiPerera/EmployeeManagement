@@ -1,0 +1,81 @@
+#basic {
+    position: relative;
+    
+   
+   height: 500px;
+  
+}
+
+#visible {
+    background-color: #d3d3d3;
+    height: 400px;
+    top: 100px;
+    border: 2px solid #bdbdbd;
+    border-radius: 4px;
+    width: 80%;
+    position: relative;
+    left: 140px;
+    padding-bottom: 40px;
+}
+
+
+#btehome{
+   
+    background: #0277bd;
+	height: 35px;
+	width: 200px;
+    position: relative;
+    left: 450px;
+    top: 90px;
+}
+
+.head{
+    
+    text-align: center;
+}
+
+#bt1{
+    height: 60px;
+	background: rgb(56, 185, 114);
+	border: 0;
+	border-radius: 4px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #000000;
+}
+
+#bt2{
+    height: 60px;
+	background: rgb(19, 189, 84);
+	border: 0;
+	border-radius: 4px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #000000;
+}
+
+#bt3{
+    height: 60px;
+	background: rgb(133, 235, 164);
+	border: 0;
+	border-radius: 4px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #000000;
+}
+
+#bt4{
+    height: 60px;
+	background: rgb(135, 233, 192);
+	border: 0;
+	border-radius: 4px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #000000;
+}
+
+.attendtitle{
+    position: relative;
+    text-align: center;
+    
+}

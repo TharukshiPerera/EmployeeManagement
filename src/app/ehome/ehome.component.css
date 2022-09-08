@@ -1,0 +1,48 @@
+#showcase{
+	height: 495px;
+}
+.float_left{
+	background-color: #D3D3D3;
+    position:relative;
+    
+	width: 400px;
+	height: 340px;
+	top: 100px;
+	left: 45%;
+	border: 2px solid #BDBDBD;
+	border-radius: 4px;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+
+
+.navbar {
+	overflow: hidden;
+	background-color: rgb(113, 118, 121);
+	position: fixed;
+	bottom: 125px;
+	width: 100%;
+  }
+  
+  .navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .navbar a:hover {
+	background: #f1f1f1;
+	color: rgb(2, 2, 2);
+  }
+  
+  .navbar a.active {
+	background-color: #4CAF50;
+	color: white;
+  }

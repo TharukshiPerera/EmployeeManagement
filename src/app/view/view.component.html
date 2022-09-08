@@ -1,0 +1,84 @@
+<section id="basic">
+
+    
+   
+
+    <h2 class="title"><b>Current Employee List</b></h2> <br> <br>
+  
+  <div class="col-md emp-list">
+
+  </div>
+  
+  
+  <div class="row emp-list" >
+      <div class="col-md emp-list"><b>Employee Id</b></div>
+      <div class="col-md emp-list"><b>First Name</b></div>
+      <div class="col-md emp-list"><b>Last Name</b></div>
+      <div class="col-md emp-list"><b>Birth day</b></div>
+      <div class="col-md emp-list"><b>Gender</b></div>
+      <div class="col-md emp-list"><b>Address</b></div>
+      <div class="col-md emp-list"><b>Phone Number</b></div>
+      <div class="col-md emp-list"><b>Email</b></div>
+      <div class="col-md emp-list"><b>Position</b></div>
+      <div class="col-md emp-list"><b>Start date</b></div>
+      <div class="col-md emp-list"><b>Edit</b></div>
+      <div class="col-md emp-list"><b>Delete</b></div>
+  
+  </div>
+  
+  <div class="row emp-list" *ngFor="let emp of employees">
+      <div class="col-md emp-list">{{emp.eId}}</div>
+      <div class="col-md emp-list">{{emp.fName}}</div>
+      <div class="col-md emp-list">{{emp.lName}}</div>
+      <div class="col-md emp-list">{{emp.bday}}</div>
+      <div class="col-md emp-list">{{emp.gender}}</div>
+      <div class="col-md emp-list">{{emp.address}}</div>
+      <div class="col-md emp-list">{{emp.phone}}</div>
+      <div class="col-md emp-list">{{emp.email}}</div>
+      <div class="col-md emp-list">{{emp.position}}</div>
+      <div class="col-md emp-list">{{emp.startdate}}</div>
+  
+      <div class="col-md emp-list"><button class="btn btn-dark" (click)="edit(emp)"> Edit</button></div>
+      <div class="col-md emp-list"><button class="btn btn-danger" (click)="delete(emp)" > Delete</button></div>
+            
+  <!--del btn--
+      <div id="myModal" class="modal fade">
+        <div class="modal-dialog modal-confirm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="icon-box">
+                <i class="material-icons">&#xE5CD;</i>
+              </div>				
+              <h4 class="modal-title">Are you sure?</h4>	
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p>Do you really want to delete these records? This process cannot be undone.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info" data-dismiss="modal">Cancel</button>
+              <button type="button" class="btn btn-danger">Delete</button>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      
+     
+  
+     
+  
+  </div>
+  
+ 
+  <div class="add-btn">
+    <a routerLink="/add" class="btn btn-primary">Add new Employee</a>
+    <a routerLink="/ehome" class="btn btn-primary" id="btn-ehome">Go to Employee Home</a>
+</div>
+<br> <br>
+
+  <!--Print table -->
+<p><b>Click the button to print the current Employee List.</b></p>
+
+<button onclick="window.print()">Print this page</button>
+
+  </section>

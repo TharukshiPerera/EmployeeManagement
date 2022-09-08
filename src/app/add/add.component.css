@@ -1,0 +1,59 @@
+.btn_btn-success{
+	height: 40px;
+	background: #ffffff;
+	border: 2px solid #03A9F4;
+	border-radius: 4px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #000000;
+}
+
+#basic {
+	position: relative;
+	height: 1300px;
+	
+}
+#visible {
+    background-color: #d3d3d3;
+    height: 1150px;
+    top: 100px;
+    border: 2px solid #bdbdbd;
+    border-radius: 4px;
+    width: 80%;
+    position: relative;
+    left: 140px;
+    padding-bottom: 40px;
+}
+.text-center{
+	position: relative;
+	top: -50px;
+	margin-top: -8px;
+	font-size: 40px;
+    text-align: center;
+    color: #0f0750;
+	
+}
+
+#reset-btn{
+	background: #ffffff;
+	border: 2px solid #03A9F4;
+	height: 40px;
+	width: 100px;
+	border-radius: 4px;
+	position: relative;
+	left: 575px;
+	top: 3px;
+	color: #000000;
+}
+
+.view-btn{
+	background: #03A9F4;
+	border: 2px solid rgb(237, 244, 247);
+	height: 40px;
+	width: 100px;
+	border-radius: 4px;
+	position: relative;
+	left: 3000px;
+	top: 3px;
+	color: #000000;
+}

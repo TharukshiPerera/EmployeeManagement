@@ -1,0 +1,35 @@
+<section id="basic">
+    <div id="visible">
+
+<h2 class="attendtitle"> <b>Employee Attendence </b></h2><br> <br>
+
+      <div class="container">    
+        <div class="row">    
+          <div class="col-md-8 form-group">    
+            <input type="file" class="form-control" (change)="uploadedFile($event)" placeholder="Upload file" accept=".xlsx">    
+          </div>    
+        </div>    
+        <div class="row">    
+          <div class="col-md-2 form-group">    
+            <button type="button" class="btn btn-info" id="bt1" (click)="readAsCSV()">Read as CSV</button>    
+          </div>    
+          <div class="col-md-2 form-group">    
+            <button type="button" class="btn btn-info" id="bt2" (click)="readAsJson()">Read as JSON</button>    
+          </div>    
+          <div class="col-md-2 form-group">    
+            <button type="button" class="btn btn-info" id="bt3" (click)="readAsHTML()">Read as HTML</button>    
+          </div>    
+          <div class="col-md-2 form-group">    
+            <button type="button" class="btn btn-info" id="bt4" (click)="readAsText()">Read as Text</button>    
+          </div>    
+        </div>    
+      </div>     
+      
+<br> <br>
+
+<div>
+  <a routerLink="/ehome" class="btn btn-primary" id="btehome">Go to Employee Home</a>
+</div>
+
+</div>
+</section>

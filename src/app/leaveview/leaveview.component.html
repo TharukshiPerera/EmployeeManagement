@@ -1,0 +1,38 @@
+<section id="basic">
+
+<h2 class="leavetitle"><b>Leaved Employee List</b></h2>
+
+<div class="row leave-list">
+    <div class="col-md leave-list"><b>ID</b></div>
+    <div class="col-md leave-list"><b>First Name</b></div>
+    <div class="col-md leave-list"><b>Last </b></div>
+    <div class="col-md leave-list"><b>Addrs</b></div>
+    <div class="col-md leave-list"><b>phone</b></div>
+    <div class="col-md leave-list"><b>email</b></div>
+    <div class="col-md leave-list"><b>position</b></div>
+    <div class="col-md leave-list"><b>start date</b></div>
+    <div class="col-md leave-list"><b>end date</b></div>
+    <div class="col-md leave-list"><b>Delete</b></div>
+
+
+</div>
+
+
+<div class="row leave-list" *ngFor= "let leave of empleave">
+    <div class="col-md leave-list">{{leave.eID}}</div>
+    <div class="col-md leave-list">{{leave.fNam}}</div>
+    <div class="col-md leave-list">{{leave.lNam}}</div>
+    <div class="col-md leave-list">{{leave.addr}}</div>
+    <div class="col-md leave-list">{{leave.pho}}</div>
+    <div class="col-md leave-list">{{leave.ema}}</div>
+    <div class="col-md leave-list">{{leave.posi}}</div>
+    <div class="col-md leave-list">{{leave.stdt}}</div>
+    <div class="col-md leave-list">{{leave.enddate}}</div>
+    <div class="col-md leave-list"><a href="" class="btn-leavemp" >Delete</a></div>
+
+</div>
+
+
+<a routerLink="/ehome" class="btn btn-primary" id="leaveh-view-btn">Go to Employee Home</a>
+
+</section>
